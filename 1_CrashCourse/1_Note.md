@@ -1,15 +1,19 @@
-# Use string format to fill in blanks with variable
+# 1. String Format
+## Use string format to fill in blanks with variable
 ```py
 'My nubmer is {} and my name is {}'.format(num, name)
 ```
 
-# This makes it more flexible
+## This makes it more flexible
 
 ```py
 'My nubmer is {a} and my name is {b}'.format(b=num, a=name)
 ```
 
-# Left closed, right open
+## Left closed, right open
 ```py
 s[3:6]
 ```
+# 2. Tuple 
+1. It is faster than list when iterating 
+2. Can be used in Dictionary keys
